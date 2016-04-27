@@ -1,0 +1,10 @@
+**Requirements**
+1) Google Play Services Location API
+
+**Functionalities**
+1) Location Change Detection
+2) SMS Sending
+3) Last Saved Location Retrieval
+4) SharedPreferences Implementation
+5) GPS Settings Detection
+6) GPS Settings activation

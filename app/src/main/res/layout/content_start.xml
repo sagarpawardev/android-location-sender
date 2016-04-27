@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/car_overlay"
+    android:gravity="center">
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:padding="10dp"
+        android:drawableLeft="@android:drawable/stat_sys_phone_call_on_hold"
+        android:background="@drawable/et_frame"
+        android:ems="12"
+        android:maxLength="10"
+        android:id="@+id/etMobile"
+        android:layout_alignTop="@+id/bStart"
+        android:layout_marginLeft="20dp"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_save"
+        android:id="@+id/bStart"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/etMobile"
+        android:layout_marginBottom="161dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entered Contact will be used to trace your location. Next time you open &apos;Vehicle App&apos; it will automatically start sending location to this contact number. But you can change location using Floating Edit Button at Bottom "
+        android:id="@+id/tvDesc"
+        android:alpha="0"
+        android:padding="20dp"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="10dp"
+        android:layout_above="@+id/etMobile"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
